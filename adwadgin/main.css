@@ -1,0 +1,145 @@
+
+#title{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.493);
+    font-size: 60px;
+    position: relative;
+    display: block;
+    color: white;
+    margin: 0%;
+    top: 5%;
+}
+#subtitle{
+    text-shadow: 2px 2px 4px gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    display: block;
+    color: white;
+    margin: 0%;
+}
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: aquamarine;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-image: url("http://imgapi.xl0408.top/index.php");
+    background-position-x: left;
+    background-position-y: center;
+}
+#cwp{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    top: 87%;
+    left: 90%;
+    border-radius: 50px;
+    border: 0px solid;
+    background-color: rgb(255, 255, 255);
+
+}
+#cwp:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+#searchbox{
+    
+    width: 50%;
+    display: block;
+    position: absolute;
+    top:40%;
+    left: 40%;
+
+}
+#modee{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.295);
+    width: 15%;
+    left: -15.5%;
+    top: 30%;
+    height: 52px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+    display:block;
+    align-items: center;
+}
+#modee:hover{
+    background-color: white;
+}
+#mode{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 26%;
+    left: 8%;
+    font-size: 100%;
+    color: rgba(0, 0, 0, 0.612);
+    position: relative;
+    margin: 20%;
+}
+
+#searchbar{
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
+    backdrop-filter: blur(10px);
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+    outline: none;
+    top:30%;
+    border: solid 0px;
+    background-color: rgba(255, 255, 255, 0.295);
+    position: absolute;
+    width: 50%;
+    height: 50px;
+}
+#searchbar:focus{
+
+    border: solid 0px;
+    background-color: rgba(255, 255, 255, 0.727);
+}
+#search{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.295);
+    border: solid 0px;
+    position: absolute;
+    width: 10%;
+    height: 52px;
+    left: 51%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#search:hover{
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.15s;
+}
+#refr{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    align-items: center;
+    top: 2px;
+    left: 0px;
+}
+#footer{
+    position: absolute;
+    left: 0px;
+    top: 97%;
+    width: 100%;
+    height: 3%;
+    backdrop-filter: blur(50px);
+    text-align: center;
+}
+#footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+*{
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
